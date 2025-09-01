@@ -1,0 +1,36 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.cell.revealed {
+    background-color: #e0e0e0;
+}
+
+.cell.mine {
+    background-color: #ff6b6b;
+}
+
+.cell.flagged {
+    background-color: #ffec99;
+}
+
+.number-1 { color: blue; }
+.number-2 { color: green; }
+.number-3 { color: red; }
+.number-4 { color: darkblue; }
+.number-5 { color: brown; }
+.number-6 { color: teal; }
+.number-7 { color: black; }
+.number-8 { color: gray; }
